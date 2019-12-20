@@ -48,6 +48,11 @@ public void setheight(double height)
     
 
  }
+
+    @Override
+    public String toString() {
+        return "rectangle{" + "height=" + height + ", width=" + width + '}';
+    }
 public double getarea()
 {
 

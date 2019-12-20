@@ -41,17 +41,17 @@ public class circle extends shapes {
     
     
      }
-    public double area()
+    public double getarea()
     {
     
     return radius*radius*Math.PI;
     
     
      }
-    public void printcircle()
-    {
-        System.out.println(super.tostring());
-        System.out.println("The radius is "+radius);
-     }
+
+    @Override
+    public String toString() {
+        return "circle{" + "radius=" + radius + '}';
+    }
     
 }
